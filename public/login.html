@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - MyStore</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">MyStore</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main class="auth-container">
+    <div class="auth-card">
+      <h2>Welcome Back</h2>
+      <form id="login-form">
+        <label>Username</label>
+        <input type="text" id="username" required />
+
+        <label>Password</label>
+        <input type="password" id="password" required />
+
+        <button type="submit" class="btn-primary">Login</button>
+      </form>
+      <p id="login-message" class="message"></p>
+      <p class="small-text">
+        New user? <a href="register.html">Create an account</a>
+      </p>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Register - MyStore</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">MyStore</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main class="auth-container">
+    <div class="auth-card">
+      <h2>Create Account</h2>
+      <form id="register-form">
+        <label>Username</label>
+        <input type="text" id="reg-username" required />
+
+        <label>Password</label>
+        <input type="password" id="reg-password" required />
+
+        <button type="submit" class="btn-primary">Register</button>
+      </form>
+      <p id="register-message" class="message"></p>
+      <p class="small-text">
+        Already have an account? <a href="login.html">Login here</a>
+      </p>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
